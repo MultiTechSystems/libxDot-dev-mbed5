@@ -65,8 +65,8 @@ A definition is needed to enable Fragmentation support on mDot and save fragment
 }
 ```
 
-The FOTA implementation has a few differences from the [LoRaWAN Protocol](https://lora-alliance.org/resource-hub/lorawan-fragmented-data-block-transport-specification-v100)
-* Fragmentation Indexing starts at 0
-* McKEKey is 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
-* Start Time is a count-down in seconds to start of session
+The FOTA/Multicast implementation is compatible with the v1 specifications provided by LoRa Alliance
+* [LoRaWAN Fragmentation Protocol](https://lora-alliance.org/resource-hub/lorawan-fragmented-data-block-transport-specification-v100)
+* [LoRaWAN Multicast Setup Protocol](https://lora-alliance.org/resource-hub/lorawanr-remote-multicast-setup-specification-v100)
+* Default GenAppKey is 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
